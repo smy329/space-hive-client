@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.theme-input {
+  @apply bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:border-[#F5385D] focus:border-2 block w-full p-2.5 outline-none;
+}
+
+.theme-btn {
+  @apply bg-[#F5385D] hover:bg-[#dc3253] text-white text-base px-5 py-2.5 rounded-lg focus:ring-4 focus:outline-none  focus:ring-amber-300 font-bold text-center;
+}
