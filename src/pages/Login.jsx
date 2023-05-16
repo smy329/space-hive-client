@@ -1,7 +1,9 @@
 import { FaGithub, FaGoogle } from 'react-icons/fa';
 import { toast } from 'react-hot-toast';
+import useTitle from '../hooks/useTitle';
 
 const Login = () => {
+  useTitle('Login');
   // const [email, setEmail] = useState('');
   // const [password, setPassword] = useState('');
   // const [loginError, setLoginError] = useState('');
